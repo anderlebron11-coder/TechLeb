@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech Leb | Soluciones Tecnológicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    
+<header id="inicio">
+  
+        <h1>TechLeb</h1>
+        <p>Soluciones tecnológicas a tu alcance.</p>
+       <a href="#contacto" class="btn">Solicitar servicio</a>
+</header>
+
+    <main>
+       
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+
+            <p>Mantenimiento, reparación y soporte tecnológico.</p>
+            <div class="services-container">
+            <div>
+                <span class="service-icon">💻</span>
+               <h3 class="service-title">Mantenimiento de computadoras</h3>
+                <p>Limpieza, mantenimiento preventivo y optimización.</p>
+            </div>
+            <div>
+                <span class="service-icon">🎮</span>
+                <h3 class="service-title">Mantenimiento de consolas</h3>
+                <p>Limpieza y mantenimiento preventivo para PS4 Y PS5</p>
+            </div>
+            <div>
+                <span class="service-icon">🛠️</span>
+                <h3 class="service-title">Reparacion y soporte</h3>
+                <p>Diagnostico y solucion de problemas tecnológicos</p>
+            </div>
+        </div>
+</section>
+
+            <section class="contact-section" id="contacto">
+    <h2>Contáctanos</h2>
+            <p>¿Necesitas ayuda con tu equipo? Escríbenos.</p>
+ <form class="contact-form">
+
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+    </div>
+
+    <div class="form-group">
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" required>
+    </div>
+
+    <div class="form-group">
+        <label for="servicio">Servicio</label>
+       <select id="servicio">
+    <option>Mantenimiento de computadora</option>
+    <option>Mantenimiento de consola</option>
+    <option>Reparación y soporte</option>
+    <option>Excel y automatización</option>
+    <option>Creación de páginas web</option>
+</select>
+    </div>
+<div class="form-group" id="grupo-modalidad">
+    <label for="modalidad">Modalidad</label>
+
+    <select id="modalidad">
+        <option>Normal</option>
+        <option>Express</option>
+    </select>
+</div>
+<div class="form-group" id="grupo-zona">
+    <label for="zona">Zona del servicio</label>
+
+    <select id="zona">
+        <option value="puriscal">Puriscal</option>
+        <option value="ciudad-colon">Ciudad Colón</option>
+        <option value="santa-ana">Santa Ana</option>
+        <option value="escazu">Escazú</option>
+        <option value="cerca-puriscal">Zona cercana a Puriscal</option>
+        <option value="consulta">Consulta por otras zonas</option>
+    </select>
+</div>
+<p id="precio-estimado">Precio estimado: —</p>
+    <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Enviar solicitud</button>
+    <p id="mensaje-formulario"></p>
+
+</form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2026 Tech Leb</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
