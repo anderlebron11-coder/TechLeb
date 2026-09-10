@@ -3202,3 +3202,21 @@ header {
     }
 
 }
+/* ========================================
+   CORRECCIÓN MENSAJE EN MÓVIL
+======================================== */
+
+@media (max-width: 600px) {
+
+    .contact-form .form-group {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+}
