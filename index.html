@@ -6,113 +6,1540 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Tech Leb | Soluciones Tecnológicas</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-      <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    
-<header id="inicio">
-  
-        <h1>TechLeb</h1>
-        <p>Soluciones tecnológicas a tu alcance.</p>
-       <a href="#contacto" class="btn">Solicitar servicio</a>
-</header>
+
+    <!-- ========================================
+         NAVBAR
+    ======================================== -->
+
+    <nav>
+
+        <div class="nav-container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">⚡</span>
+
+                <span>
+                    Tech<span class="logo-accent">Leb</span>
+                </span>
+            </a>
+
+
+            <div class="nav-links">
+
+                <a href="#inicio">
+                    Inicio
+                </a>
+
+                <a href="#servicios">
+                    Servicios
+                </a>
+
+                <a href="#sobre-techleb">
+                    Sobre TechLeb
+                </a>
+
+                <a href="#contacto">
+                    Contacto
+                </a>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú"
+            >
+                ☰
+            </button>
+
+
+            <a
+                href="#contacto"
+                class="nav-button"
+            >
+                Cotizar servicio
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ========================================
+         HERO
+    ======================================== -->
+
+    <header id="inicio">
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    ⚡ Soluciones tecnológicas
+                </span>
+
+
+                <h1>
+                    Tu tecnología
+                    <span>en buenas manos.</span>
+                </h1>
+
+
+                <p class="hero-description">
+                    Mantenimiento, reparación y soluciones digitales
+                    para que sigas haciendo lo que te importa.
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#contacto"
+                        class="btn"
+                    >
+                        Solicitar cotización
+                        <span>→</span>
+                    </a>
+
+
+                    <a
+                        href="#servicios"
+                        class="hero-secondary-btn"
+                    >
+                        Ver servicios
+                    </a>
+
+                </div>
+
+
+                <div class="hero-features">
+
+                    <div>
+                        <span>🛡️</span>
+
+                        <p>
+                            Atención confiable
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <span>⚡</span>
+
+                        <p>
+                            Servicio rápido
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <span>🛠️</span>
+
+                        <p>
+                            Soluciones a tu medida
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="hero-glow"></div>
+
+
+                <div class="tech-card">
+
+                    <span class="tech-card-icon">
+                        💻
+                    </span>
+
+                    <h3>
+                        TechLeb
+                    </h3>
+
+                    <p>
+                        Soporte • Reparación • Tecnología
+                    </p>
+
+                </div>
+
+
+                <div class="floating-card card-one">
+                    💻 Computadoras
+                </div>
+
+
+                <div class="floating-card card-two">
+                    🎮 Consolas
+                </div>
+
+
+                <div class="floating-card card-three">
+                    🌐 Soluciones web
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
 
     <main>
-       
+
+
+        <!-- ========================================
+             SERVICIOS
+        ======================================== -->
+
         <section id="servicios">
-            <h2>Nuestros servicios</h2>
 
-            <p>Mantenimiento, reparación y soporte tecnológico.</p>
+            <div class="services-header">
+
+                <span class="section-badge">
+                    ⚡ Nuestros servicios
+                </span>
+
+
+                <h2>
+                    Soluciones para tu
+                    <span>tecnología.</span>
+                </h2>
+
+
+                <p>
+                    Desde mantenimiento y soporte técnico hasta
+                    automatización y desarrollo web.
+                    Todo en un mismo lugar.
+                </p>
+
+            </div>
+
+
             <div class="services-container">
-            <div>
-                <span class="service-icon">💻</span>
-               <h3 class="service-title">Mantenimiento de computadoras</h3>
-                <p>Limpieza, mantenimiento preventivo y optimización.</p>
+
+
+                <!-- COMPUTADORAS -->
+
+                <div
+                    class="service-card"
+                    data-service="computadora"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de mantenimiento de computadoras"
+                >
+
+                    <span class="service-icon">
+                        💻
+                    </span>
+
+                    <h3 class="service-title">
+                        Mantenimiento de computadoras
+                    </h3>
+
+                    <p>
+                        Limpieza, mantenimiento preventivo y optimización.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
+
+                <!-- CONSOLAS -->
+
+                <div
+                    class="service-card"
+                    data-service="consola"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de mantenimiento de consolas"
+                >
+
+                    <span class="service-icon">
+                        🎮
+                    </span>
+
+                    <h3 class="service-title">
+                        Mantenimiento de consolas
+                    </h3>
+
+                    <p>
+                        Limpieza y mantenimiento preventivo para PS4 y PS5.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
+
+                <!-- REPARACIÓN -->
+
+                <div
+                    class="service-card"
+                    data-service="reparacion"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de reparación y soporte"
+                >
+
+                    <span class="service-icon">
+                        🛠️
+                    </span>
+
+                    <h3 class="service-title">
+                        Reparación y soporte
+                    </h3>
+
+                    <p>
+                        Diagnóstico y solución de problemas tecnológicos.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
+
+                <!-- EXCEL -->
+
+                <div
+                    class="service-card"
+                    data-service="excel"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de Excel y automatización"
+                >
+
+                    <span class="service-icon">
+                        📊
+                    </span>
+
+                    <h3 class="service-title">
+                        Excel y automatización
+                    </h3>
+
+                    <p>
+                        Creación de reportes, automatización y soluciones en Excel.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
+
+                <!-- PÁGINAS WEB -->
+
+                <div
+                    class="service-card"
+                    data-service="web"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de creación de páginas web"
+                >
+
+                    <span class="service-icon">
+                        🌐
+                    </span>
+
+                    <h3 class="service-title">
+                        Creación de páginas web
+                    </h3>
+
+                    <p>
+                        Diseño y desarrollo de páginas web para negocios y proyectos.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
+
+                <!-- APPLE -->
+
+                <div
+                    class="service-card"
+                    data-service="apple"
+                    tabindex="0"
+                    role="button"
+                    aria-label="Ver servicio de soporte para dispositivos Apple"
+                >
+
+                    <span class="service-icon">
+                        🍎
+                    </span>
+
+                    <h3 class="service-title">
+                        Soporte para dispositivos Apple
+                    </h3>
+
+                    <p>
+                        Diagnóstico, configuración y soporte
+                        para dispositivos Apple.
+                    </p>
+
+                    <span class="service-link">
+                        Ver servicio →
+                    </span>
+
+                </div>
+
             </div>
-            <div>
-                <span class="service-icon">🎮</span>
-                <h3 class="service-title">Mantenimiento de consolas</h3>
-                <p>Limpieza y mantenimiento preventivo para PS4 Y PS5</p>
-            </div>
-            <div>
-                <span class="service-icon">🛠️</span>
-                <h3 class="service-title">Reparacion y soporte</h3>
-                <p>Diagnostico y solucion de problemas tecnológicos</p>
-            </div>
-        </div>
-</section>
 
-            <section class="contact-section" id="contacto">
-    <h2>Contáctanos</h2>
-            <p>¿Necesitas ayuda con tu equipo? Escríbenos.</p>
- <form class="contact-form">
-
-    <div class="form-group">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" required>
-    </div>
-
-    <div class="form-group">
-        <label for="correo">Correo</label>
-        <input type="email" id="correo" required>
-    </div>
-
-    <div class="form-group">
-        <label for="servicio">Servicio</label>
-       <select id="servicio">
-    <option>Mantenimiento de computadora</option>
-    <option>Mantenimiento de consola</option>
-    <option>Reparación y soporte</option>
-    <option>Excel y automatización</option>
-    <option>Creación de páginas web</option>
-</select>
-    </div>
-<div class="form-group" id="grupo-modalidad">
-    <label for="modalidad">Modalidad</label>
-
-    <select id="modalidad">
-        <option>Normal</option>
-        <option>Express</option>
-    </select>
-</div>
-<div class="form-group" id="grupo-zona">
-    <label for="zona">Zona del servicio</label>
-
-    <select id="zona">
-        <option value="puriscal">Puriscal</option>
-        <option value="ciudad-colon">Ciudad Colón</option>
-        <option value="santa-ana">Santa Ana</option>
-        <option value="escazu">Escazú</option>
-        <option value="cerca-puriscal">Zona cercana a Puriscal</option>
-        <option value="consulta">Consulta por otras zonas</option>
-    </select>
-</div>
-<p id="precio-estimado">Precio estimado: —</p>
-    <div class="form-group">
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" rows="5" required></textarea>
-    </div>
-
-    <button type="submit" class="submit-btn">Enviar solicitud</button>
-    <p id="mensaje-formulario"></p>
-
-</form>
         </section>
 
 
+        <!-- ========================================
+             DETALLE DEL SERVICIO
+        ======================================== -->
+
+        <section
+            id="detalle-servicio"
+            class="service-detail"
+        >
+
+            <div class="service-detail-container">
+
+                <span class="section-badge">
+                    SERVICIO
+                </span>
+
+
+                <div class="service-detail-content">
+
+                    <div
+                        class="service-detail-icon"
+                        id="detalle-icono"
+                    >
+                        💻
+                    </div>
+
+
+                    <div>
+
+                        <h2 id="detalle-titulo">
+                            Mantenimiento de computadoras
+                        </h2>
+
+                        <p id="detalle-descripcion">
+                            Mantén tu equipo funcionando de forma rápida,
+                            estable y segura.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="service-detail-grid">
+
+
+                    <div class="detail-box">
+
+                        <span>
+                            🛠️
+                        </span>
+
+                        <h3>
+                            ¿Qué incluye?
+                        </h3>
+
+                        <ul id="detalle-incluye">
+
+                            <li>
+                                Limpieza interna
+                            </li>
+
+                            <li>
+                                Optimización
+                            </li>
+
+                            <li>
+                                Diagnóstico preventivo
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="detail-box">
+
+                        <span>
+                            🎯
+                        </span>
+
+                        <h3>
+                            Ideal para
+                        </h3>
+
+                        <p id="detalle-ideal">
+                            Laptops, computadoras de escritorio
+                            y equipos All-in-One.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="service-detail-action">
+
+                    <a
+                        href="#contacto"
+                        class="btn"
+                        id="detalle-boton"
+                    >
+                        Solicitar este servicio
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             SOBRE TECHLEB
+        ======================================== -->
+
+        <section
+            class="about-section"
+            id="sobre-techleb"
+        >
+
+            <div class="about-container">
+
+
+                <div class="about-content">
+
+                    <span class="section-badge">
+                        SOBRE TECHLEB
+                    </span>
+
+
+                    <h2>
+                        Tecnología con un enfoque
+                        <span>personal.</span>
+                    </h2>
+
+
+                    <p class="about-intro">
+                        TechLeb nace con una idea sencilla:
+                        hacer que la tecnología sea más fácil
+                        de entender, mantener y aprovechar.
+                    </p>
+
+
+                    <p>
+                        Soy Anderson, creador de TechLeb.
+                        Me apasiona la tecnología, resolver problemas
+                        y encontrar soluciones prácticas para personas
+                        y negocios.
+                    </p>
+
+
+                    <p>
+                        Desde mantenimiento y reparación de equipos
+                        hasta Excel, automatización y desarrollo web,
+                        busco ofrecer soluciones claras, profesionales
+                        y adaptadas a cada necesidad.
+                    </p>
+
+
+                    <div class="about-values">
+
+
+                        <div class="about-value">
+
+                            <span>
+                                🛠️
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Experiencia práctica
+                                </h3>
+
+                                <p>
+                                    Soluciones enfocadas en problemas reales.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-value">
+
+                            <span>
+                                📚
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Aprendizaje constante
+                                </h3>
+
+                                <p>
+                                    Siempre buscando nuevas herramientas
+                                    y tecnologías.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-value">
+
+                            <span>
+                                🤝
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Atención personalizada
+                                </h3>
+
+                                <p>
+                                    Cada cliente y cada proyecto es diferente.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-visual">
+
+                    <div class="about-card">
+
+                        <div class="about-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            TechLeb
+                        </h3>
+
+                        <p>
+                            Soluciones tecnológicas
+                            que buscan hacerte la vida más fácil.
+                        </p>
+
+                        <div class="about-line"></div>
+
+                        <span>
+                            Tecnología • Soporte • Soluciones
+                        </span>
+
+                    </div>
+
+
+                    <div class="about-orbit orbit-one"></div>
+
+                    <div class="about-orbit orbit-two"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             CÓMO TRABAJAMOS
+        ======================================== -->
+
+        <section
+            id="como-trabajamos"
+            class="process-section"
+        >
+
+            <div class="process-container">
+
+
+                <div class="process-header">
+
+                    <span class="section-badge">
+                        NUESTRO PROCESO
+                    </span>
+
+
+                    <h2>
+                        Así hacemos las cosas
+                        <span>más simples.</span>
+                    </h2>
+
+
+                    <p>
+                        Desde el primer contacto hasta la entrega,
+                        buscamos que tengas claro qué estamos haciendo
+                        y por qué.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            01
+                        </span>
+
+                        <div class="process-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            Cuéntanos
+                        </h3>
+
+                        <p>
+                            Explícanos qué problema tienes
+                            o qué necesitas.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            02
+                        </span>
+
+                        <div class="process-icon">
+                            🔍
+                        </div>
+
+                        <h3>
+                            Evaluamos
+                        </h3>
+
+                        <p>
+                            Revisamos tu caso para entender
+                            qué solución necesitas.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            03
+                        </span>
+
+                        <div class="process-icon">
+                            💡
+                        </div>
+
+                        <h3>
+                            Proponemos
+                        </h3>
+
+                        <p>
+                            Te explicamos la solución y
+                            el servicio recomendado.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            04
+                        </span>
+
+                        <div class="process-icon">
+                            🛠️
+                        </div>
+
+                        <h3>
+                            Trabajamos
+                        </h3>
+
+                        <p>
+                            Realizamos el servicio de acuerdo
+                            con lo acordado.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            05
+                        </span>
+
+                        <div class="process-icon">
+                            ✅
+                        </div>
+
+                        <h3>
+                            Entregamos
+                        </h3>
+
+                        <p>
+                            Te entregamos el equipo o proyecto
+                            listo para continuar.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             TECHLEB EN ACCIÓN
+        ======================================== -->
+
+        <section
+            id="proyectos"
+            class="projects-section"
+        >
+
+            <div class="projects-container">
+
+
+                <div class="projects-header">
+
+                    <span class="section-badge">
+                        TECHLEB EN ACCIÓN
+                    </span>
+
+
+                    <h2>
+                        Soluciones que puedes
+                        <span>ver.</span>
+                    </h2>
+
+
+                    <p>
+                        Proyectos y soluciones desarrolladas
+                        utilizando herramientas y conocimientos
+                        tecnológicos aplicados a casos reales.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <article class="project-card">
+
+                        <div class="project-visual">
+                            💻
+                        </div>
+
+                        <div class="project-content">
+
+                            <span>
+                                Mantenimiento
+                            </span>
+
+                            <h3>
+                                Mantenimiento de computadoras
+                            </h3>
+
+                            <p>
+                                Limpieza, revisión y optimización
+                                de equipos para mejorar su funcionamiento
+                                y mantenimiento preventivo.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-visual">
+                            📊
+                        </div>
+
+                        <div class="project-content">
+
+                            <span>
+                                Automatización
+                            </span>
+
+                            <h3>
+                                Soluciones con Excel
+                            </h3>
+
+                            <p>
+                                Creación de reportes, dashboards,
+                                automatización y organización de
+                                información mediante Excel y Power Query.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-visual">
+                            🌐
+                        </div>
+
+                        <div class="project-content">
+
+                            <span>
+                                Desarrollo web
+                            </span>
+
+                            <h3>
+                                Sitio web TechLeb
+                            </h3>
+
+                            <p>
+                                Diseño y desarrollo de la plataforma
+                                TechLeb utilizando HTML, CSS y JavaScript.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             CONTACTO
+        ======================================== -->
+
+        <section
+            class="contact-section"
+            id="contacto"
+        >
+
+            <div class="contact-container">
+
+
+                <!-- INFORMACIÓN DE CONTACTO -->
+
+                <div class="contact-info">
+
+                    <span class="section-badge">
+                        CONTACTO
+                    </span>
+
+
+                    <h2>
+                        Hablemos sobre
+                        <span>tu proyecto.</span>
+                    </h2>
+
+
+                    <p>
+                        Cuéntame qué necesitas y encontremos
+                        juntos la solución más adecuada.
+                    </p>
+
+
+                    <div class="contact-highlights">
+
+
+                        <div class="contact-highlight">
+
+                            <span>
+                                ⚡
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Atención personalizada
+                                </h3>
+
+                                <p>
+                                    Cada solicitud se revisa de acuerdo
+                                    con tus necesidades.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-highlight">
+
+                            <span>
+                                🛠️
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Diferentes soluciones
+                                </h3>
+
+                                <p>
+                                    Computadoras, consolas, soporte,
+                                    Excel y desarrollo web.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-highlight">
+
+                            <span>
+                                💬
+                            </span>
+
+                            <div>
+
+                                <h3>
+                                    Comunicación directa
+                                </h3>
+
+                                <p>
+                                    Recibe tu cotización y coordina
+                                    el servicio de forma sencilla.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-note">
+
+                        <span>
+                            ⚡
+                        </span>
+
+                        <p>
+                            También puedes solicitar tu cotización
+                            directamente por WhatsApp.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULARIO -->
+
+                <div class="contact-form-wrapper">
+
+                    <form class="contact-form">
+
+
+                        <!-- NOMBRE -->
+
+                        <div class="form-group">
+
+                            <label for="nombre">
+                                Nombre
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nombre"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- CORREO -->
+
+                        <div class="form-group">
+
+                            <label for="correo">
+                                Correo
+                            </label>
+
+                            <input
+                                type="email"
+                                id="correo"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- SERVICIO -->
+
+                        <div class="form-group">
+
+                            <label for="servicio">
+                                Servicio
+                            </label>
+
+                            <select id="servicio">
+
+                                <option>
+                                    Mantenimiento de computadora
+                                </option>
+
+                                <option>
+                                    Mantenimiento de consola
+                                </option>
+
+                                <option>
+                                    Reparación y soporte
+                                </option>
+
+                                <option>
+                                    Excel y automatización
+                                </option>
+
+                                <option>
+                                    Creación de páginas web
+                                </option>
+
+                                <option>
+                                    Soporte para dispositivos Apple
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- MODALIDAD -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-modalidad"
+                        >
+
+                            <label for="modalidad">
+                                Modalidad
+                            </label>
+
+                            <select id="modalidad">
+
+                                <option>
+                                    Normal
+                                </option>
+
+                                <option>
+                                    Express
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- EQUIPO -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-equipo"
+                        >
+
+                            <label for="equipo">
+                                Equipo
+                            </label>
+
+                            <select id="equipo">
+
+                                <option value="laptop">
+                                    Laptop
+                                </option>
+
+                                <option value="desktop">
+                                    Computadora de escritorio
+                                </option>
+
+                                <option value="all-in-one">
+                                    All-in-One
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- DISPOSITIVO APPLE -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-apple"
+                        >
+
+                            <label for="dispositivo-apple">
+                                Dispositivo Apple
+                            </label>
+
+                            <select id="dispositivo-apple">
+
+                                <option value="macbook">
+                                    MacBook
+                                </option>
+
+                                <option value="imac">
+                                    iMac
+                                </option>
+
+                                <option value="mac-mini">
+                                    Mac mini
+                                </option>
+
+                                <option value="iphone">
+                                    iPhone
+                                </option>
+
+                                <option value="ipad">
+                                    iPad
+                                </option>
+
+                                <option value="apple-watch">
+                                    Apple Watch
+                                </option>
+
+                                <option value="otro">
+                                    Otro
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- TIPO DE MANTENIMIENTO -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-tipo-mantenimiento"
+                        >
+
+                            <label for="tipo-mantenimiento">
+                                Tipo de mantenimiento
+                            </label>
+
+                            <select id="tipo-mantenimiento">
+
+                                <option value="limpieza">
+                                    Limpieza interna
+                                </option>
+
+                                <option value="pasta-termica">
+                                    Cambio de pasta térmica
+                                </option>
+
+                                <option value="optimizacion">
+                                    Optimización
+                                </option>
+
+                                <option value="completo">
+                                    Mantenimiento completo
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- ZONA -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-zona"
+                        >
+
+                            <label for="zona">
+                                Zona del servicio
+                            </label>
+
+                            <select id="zona">
+
+                                <option value="puriscal">
+                                    Puriscal
+                                </option>
+
+                                <option value="ciudad-colon">
+                                    Ciudad Colón
+                                </option>
+
+                                <option value="santa-ana">
+                                    Santa Ana
+                                </option>
+
+                                <option value="escazu">
+                                    Escazú
+                                </option>
+
+                                <option value="cerca-puriscal">
+                                    Zona cercana a Puriscal
+                                </option>
+
+                                <option value="consulta">
+                                    Consulta por otras zonas
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- EXCEL -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-excel"
+                        >
+
+                            <label for="tipo-excel">
+                                Tipo de trabajo en Excel
+                            </label>
+
+                            <select id="tipo-excel">
+
+                                <option value="reportes">
+                                    Reportes y tablas
+                                </option>
+
+                                <option value="dashboard">
+                                    Dashboard
+                                </option>
+
+                                <option value="formulas">
+                                    Fórmulas y funciones
+                                </option>
+
+                                <option value="automatizacion">
+                                    Automatización
+                                </option>
+
+                                <option value="power-query">
+                                    Power Query
+                                </option>
+
+                                <option value="otro">
+                                    Otro
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- DESCRIPCIÓN EXCEL -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-descripcion-excel"
+                        >
+
+                            <label for="descripcion-excel">
+                                ¿Qué necesitas realizar?
+                            </label>
+
+                            <textarea
+                                id="descripcion-excel"
+                                rows="4"
+                                placeholder="Cuéntanos qué necesitas hacer en Excel..."
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- WEB -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-web"
+                        >
+
+                            <label for="tipo-web">
+                                Tipo de página web
+                            </label>
+
+                            <select id="tipo-web">
+
+                                <option value="negocio">
+                                    Página para negocio
+                                </option>
+
+                                <option value="landing">
+                                    Landing page
+                                </option>
+
+                                <option value="portafolio">
+                                    Portafolio personal
+                                </option>
+
+                                <option value="tienda">
+                                    Tienda en línea
+                                </option>
+
+                                <option value="institucional">
+                                    Página institucional
+                                </option>
+
+                                <option value="otro">
+                                    Otro
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- FUNCIONALIDADES WEB -->
+
+                        <div
+                            class="form-group"
+                            id="grupo-funcionalidades-web"
+                        >
+
+                            <label for="funcionalidades-web">
+                                ¿Qué funcionalidades necesitas?
+                            </label>
+
+                            <textarea
+                                id="funcionalidades-web"
+                                rows="4"
+                                placeholder="Ejemplo: WhatsApp, formulario de contacto, catálogo, reservas, etc."
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- CTA -->
+
+                        <div class="contact-cta">
+
+                            <div class="contact-cta-icon">
+                                ⚡
+                            </div>
+
+                            <div class="contact-cta-content">
+
+                                <h3>
+                                    ¿Listo para comenzar?
+                                </h3>
+
+                                <p>
+                                    Cuéntanos qué necesitas y te contactaremos
+                                    para confirmar los detalles de tu servicio.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- MENSAJE -->
+
+                        <div class="form-group">
+
+                            <label for="mensaje">
+                                Mensaje
+                            </label>
+
+                            <textarea
+                                id="mensaje"
+                                rows="5"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- BOTÓN -->
+
+                        <button
+                            type="submit"
+                            class="submit-btn"
+                        >
+                            Solicitar cotización
+                            <span>→</span>
+                        </button>
+
+
+                        <!-- MENSAJE DE CONFIRMACIÓN -->
+
+                        <p id="mensaje-formulario"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+
     <footer>
-        <p>© 2026 Tech Leb</p>
+
+        <p>
+            © 2026 Tech Leb
+        </p>
+
     </footer>
 
-<script src="script.js"></script>
+
+    <!-- ========================================
+         JAVASCRIPT
+    ======================================== -->
+
+    <script src="script.js"></script>
 
 </body>
 
